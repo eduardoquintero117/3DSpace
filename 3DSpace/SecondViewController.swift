@@ -25,7 +25,7 @@ class SecondViewController: UIViewController {
         
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleTap(_:)))
                viewGame.addGestureRecognizer(tapGesture)
-//      //  ----- codigo temporal para ver el cambio con la adicion de texturas
+//      //  ----- codigo temporal para ver el cambio con la adicion de texturas -----
 //               let lightNode = SCNNode()
 //                      lightNode.light = SCNLight()
 //                      lightNode.light!.type = .omni
